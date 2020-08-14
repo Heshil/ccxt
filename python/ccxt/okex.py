@@ -268,6 +268,7 @@ class okex(Exchange):
                         'cancel_order/{instrument_id}/{order_id}',
                         'cancel_order/{instrument_id}/{client_oid}',
                         'cancel_batch_orders/{instrument_id}',
+                        'cancel_all',
                         'order_algo',
                         'cancel_algos',
                     ],
